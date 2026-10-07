@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://connect.leeroy.uz/download"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0-6f86ff?style=for-the-badge" alt="Скачать с сайта"></a>
-  <a href="../../releases/latest"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-%D1%81%20GitHub-24292f?style=for-the-badge&logo=github" alt="Скачать с GitHub"></a>
+  <a href="https://github.com/LERO-VPN/android/releases/latest"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-%D1%81%20GitHub-24292f?style=for-the-badge&logo=github" alt="Скачать с GitHub"></a>
 </p>
 
 Приложение для подписки [LERO VPN](https://connect.leeroy.uz): включается одной кнопкой, сервер выбирает само. Белые списки держат связь, когда мобильный интернет открывает только разрешённые сайты.
@@ -27,13 +27,32 @@
 
 ## Проверить файл
 
-У каждого выпуска указаны SHA-256 и ссылка на отчёт VirusTotal. Сверь сумму с указанной:
+Каждую версию мы проверяем на VirusTotal. Ссылка на отчёт и SHA-256 — в описании [последнего выпуска](https://github.com/LERO-VPN/android/releases/latest).
+
+Чтобы убедиться, что скачал именно этот файл:
+
+1. Открой [VirusTotal](https://www.virustotal.com) и перетащи туда скачанный APK.
+2. Сравни отчёт с тем, что указан в описании выпуска. Если файл тот же, VirusTotal откроет тот же отчёт с той же суммой SHA-256.
+
+Если суммы разные, не устанавливай файл и напиши в поддержку.
+
+<details>
+<summary>Проверка через командную строку</summary>
+
+На macOS или Linux:
 
 ```bash
-shasum -a 256 lero-vpn-ВЕРСИЯ.apk
+shasum -a 256 ~/Downloads/lero-vpn-*.apk
 ```
 
-`ВЕРСИЯ` — номер из имени скачанного файла. На Windows вместо `shasum` используй `Get-FileHash` в PowerShell.
+На Windows в PowerShell:
+
+```powershell
+Get-FileHash $HOME\Downloads\lero-vpn-*.apk
+```
+
+Сумма должна совпасть с SHA-256 в описании выпуска.
+</details>
 
 ## Поддержка
 
