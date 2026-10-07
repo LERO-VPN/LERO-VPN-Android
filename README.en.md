@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://connect.leeroy.uz/download"><img src="https://img.shields.io/badge/Download-from%20website-6f86ff?style=for-the-badge" alt="Download from website"></a>
-  <a href="https://github.com/LERO-VPN/android/releases/latest"><img src="https://img.shields.io/badge/Download-from%20GitHub-24292f?style=for-the-badge&logo=github" alt="Download from GitHub"></a>
+  <a href="https://github.com/LERO-VPN/LERO-VPN-Android/releases/latest"><img src="https://img.shields.io/badge/Download-from%20GitHub-24292f?style=for-the-badge&logo=github" alt="Download from GitHub"></a>
 </p>
 
 The app for your [LERO VPN](https://connect.leeroy.uz) subscription: connect with one tap, and it picks the server for you. Whitelists keep you online when mobile internet only opens approved sites.
@@ -27,7 +27,7 @@ You're done when the home screen shows the connect button. The app offers new ve
 
 ## Verify the file
 
-We check every version on VirusTotal. The report link and SHA-256 are in the [latest release](https://github.com/LERO-VPN/android/releases/latest) notes.
+We check every version on VirusTotal. The report link and SHA-256 are in the [latest release](https://github.com/LERO-VPN/LERO-VPN-Android/releases/latest) notes.
 
 To make sure you downloaded this exact file:
 

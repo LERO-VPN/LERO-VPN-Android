@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://connect.leeroy.uz/download"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-%D1%81%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0-6f86ff?style=for-the-badge" alt="Скачать с сайта"></a>
-  <a href="https://github.com/LERO-VPN/android/releases/latest"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-%D1%81%20GitHub-24292f?style=for-the-badge&logo=github" alt="Скачать с GitHub"></a>
+  <a href="https://github.com/LERO-VPN/LERO-VPN-Android/releases/latest"><img src="https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-%D1%81%20GitHub-24292f?style=for-the-badge&logo=github" alt="Скачать с GitHub"></a>
 </p>
 
 Приложение для подписки [LERO VPN](https://connect.leeroy.uz): включается одной кнопкой, сервер выбирает само. Белые списки держат связь, когда мобильный интернет открывает только разрешённые сайты.
@@ -27,7 +27,7 @@
 
 ## Проверить файл
 
-Каждую версию мы проверяем на VirusTotal. Ссылка на отчёт и SHA-256 — в описании [последнего выпуска](https://github.com/LERO-VPN/android/releases/latest).
+Каждую версию мы проверяем на VirusTotal. Ссылка на отчёт и SHA-256 — в описании [последнего выпуска](https://github.com/LERO-VPN/LERO-VPN-Android/releases/latest).
 
 Чтобы убедиться, что скачал именно этот файл:
 
