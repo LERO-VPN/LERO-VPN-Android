@@ -9,7 +9,7 @@
 
 The app for your [LERO VPN](https://connect.leeroy.uz) subscription: connect with one tap, and it picks the server for you. Whitelists keep you online when mobile internet only opens approved sites.
 
-You need Android 8.0 or newer and an active subscription. The app is in beta.
+You need Android 8.0 or newer and an active subscription.
 
 <p align="center">
   <img src="assets/screenshots/dark-vpn.png" width="30%" alt="Home screen with the connect button">
